@@ -1,0 +1,46 @@
+body{
+background-image: url("./images/background1.jpg");
+background-size: 100% ;
+}
+a img{
+    height: 40px;
+    width: 80%;
+}
+#nav2{
+    padding-left: 14rem;
+}
+.headings{
+    text-align: center;
+    margin-top: 120px;
+}
+.headings h2{
+    font-size: 18px;
+}
+#myform{
+    margin-left: 18%;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
